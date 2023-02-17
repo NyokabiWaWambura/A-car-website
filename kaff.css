@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* transition: all 0.5s ease; */
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  body {
+    /* font-family: "Lora", serif; */
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* main styles */
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 6em;
+    background-color: #171717;
+  }
+  
+  .headerLogo h1 {
+    font-size: 20px;
+    font-weight: 900 !important;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+  }
+  
+ 
+  .headerNavLink ul {
+    display: flex;
+    gap: 2em;
+  }
+  
+  .headerNavLink ul li {
+    cursor: pointer;
+    color: gray;
+  }
+  
+  #specialnav {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1px;
+    color: white;
+  }
+  
+  #headerSup {
+    background-color: red;
+    height: 3px;
+    width: 5px;
+    border-radius: 50%;
+    padding: 4px;
+  }
+  
+ 
+  /* hero */
+  
+  .hero {
+    padding: 20px 6em;
+    background-color: #171717;
+  }
+  
+  .heroLabel {
+    display: flex;
+    gap: 1em;
+    font-size: 4em;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 30px;
+    align-items: center;
+    color:greenyellow;
+  }
+  
+  #heroLabelSpecial {
+    background-color:black;
+    color:orange;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 6px;
+  }
+  
+  .heroText {
+    color:whitesmoke;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .heroImage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 3em;
+  }
+  
+  .myImage img {
+    border-radius: 20px;
+   
+  }
+  
+  
+ 
+  .footerRight {
+    flex: 0.5;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1em;
+    display: block;
+  }
+  
+  
+  .rightItem {
+    background-color: rgb(255, 0, 64);
+    color:pink;
+    padding: 1em 1.3em;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 10px;;
+  }
+  .footerRightFirst {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    flex: 0.5;
+    margin-top: 1.5em;
+  }
+
+
+  .rightItem h1 {
+    margin-bottom: 1em;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-style: italic;
+  }
+  
+ 
+  
+
+
+  
+  @media (max-width: 700px) {
+    .headerNavLink {
+      display: none;
+    }
+    .hero {
+      padding: 20px 10px;
+    }
+  
+    .header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 20px;
+      background-color: #171717;
+    }
+  
+    
+  
+    .myImages img {
+      border-radius: 20px;
+      object-fit: cover;
+    }
+  
+    
+  
+   
+  }
+  
